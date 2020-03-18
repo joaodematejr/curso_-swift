@@ -1,2 +1,2 @@
-# curso_-swift
+# curso_swift
 Curso de Swift
