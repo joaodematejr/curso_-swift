@@ -35,14 +35,14 @@ class MyScreenViewController : UIViewController {
         var initialX:Int = 50
         let initialY:Int = 200
         
-        for i in 1...5{
+       /* for _ in 1...5{
             let myFrog = Frog(x: initialX, y: initialY)
             initialX += 50
 
             addFrog(frog: myFrog)
         }
-        
-        /*
+        */
+       
         var i:Int = 1
         while (i<=6){
             let myFrog = Frog(x: initialX, y: initialY)
@@ -53,7 +53,7 @@ class MyScreenViewController : UIViewController {
             i = i + 1
             
         }
-        */
+       
     }
 
     func addFrog(frog:Frog){

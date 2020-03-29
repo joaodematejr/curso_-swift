@@ -24,6 +24,15 @@ class Frog {
     }
 }
 
+class SapoGuerreiro : Frog {
+    var arma = "Espada"
+    
+}
+
+var sapo1 = SapoGuerreiro(x: 100, y: 200)
+
+print(sapo1.height)
+
 // Classe que representa a interface do jogo
 class GameViewController : UIViewController {
     
@@ -33,7 +42,7 @@ class GameViewController : UIViewController {
     //var myView:UIView!
     
     // Constantes de configuração do jogo
-    let maxPointsToWin = 30
+    let maxPointsToWin = 90
     let messageVictory = "Parabéns, você ganhou!!"
     let messageLose = "Não foi dessa vez. Tente novamente!!"
     let heightScreen = 650
@@ -41,7 +50,7 @@ class GameViewController : UIViewController {
     let imageNameBackground = "gameBackground.jpg"
     
     // Variáveis de configuração do jogo
-    var timeIntervalFrogAppears = 2.0
+    var timeIntervalFrogAppears = 1.0
     var timerFrogVisible = 2.0
     var currentPoints = 0
     var timerShowFrogs:Timer!
